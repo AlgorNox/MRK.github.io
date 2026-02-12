@@ -1,0 +1,12 @@
+body{
+    background-color: lightgrey;
+}
+
+h1{
+    text-align: center;
+}
+
+.navbar{
+    height: auto;
+    padding-left: 20px;
+}
