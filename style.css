@@ -33,7 +33,7 @@ h1{
 }
 
 .jobboldal{
-    float: none;
+    float: right;
     align-items: center;
     justify-content: center;
     padding: 20px;
@@ -130,5 +130,6 @@ a{
     margin-top: 50px;
 }
 }
+
 
 
