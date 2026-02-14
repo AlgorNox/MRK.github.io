@@ -1,6 +1,76 @@
-/*PC*/
+/*nagy PC*/
 
-@media (max-width: 3900px){
+@media (max-width: 10000px){
+body{
+    background-image: url(hatternagy.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    font-size: 300%;
+    letter-spacing: 2px;
+    font-weight: bold;
+    padding: 5%;
+    color: white;
+}
+
+.navbar{
+    height: auto;
+    padding-left: 5%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+.baloldal{
+    float: left;
+    padding: 20px;
+    width: 30%;
+    color: white;
+    font-size: 25px;
+}
+
+.jobboldal{
+    float: right;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 40%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(6px);
+    color: rgb(255, 255, 255);
+    text-align: justify;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding:5px;
+    font-size: 23px;
+    font-size: 20px;
+}
+
+.gomb{
+    width: 50px;
+    margin: 10px;
+}
+
+.linkek{
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+    margin: 10px;
+    margin-top: 50px;
+}
+}
+
+/*sima PC*/
+
+@media (max-width: 3000px){
 body{
     background-image: url(hatterpc.png);
     background-repeat: no-repeat;
@@ -12,16 +82,16 @@ body{
 
 h1{
     text-align: center;
-    font-size: 70px;
+    font-size: 300%;
     letter-spacing: 2px;
     font-weight: bold;
-    padding: 20px;
+    padding: 5%;
     color: white;
 }
 
 .navbar{
     height: auto;
-    padding-left: 20px;
+    padding-left: 5%;
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(10px);
 }
@@ -29,7 +99,7 @@ h1{
 .baloldal{
     float: left;
     padding: 20px;
-    width: 500px;
+    width: 30%;
     color: white;
     font-size: 25px;
 }
@@ -39,7 +109,8 @@ h1{
     align-items: center;
     justify-content: center;
     padding: 20px;
-    width: 600px;
+    width: 40%;
+    height: auto;
     background-color: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(6px);
     color: rgb(255, 255, 255);
