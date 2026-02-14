@@ -99,8 +99,10 @@ h1{
 }
 
 .jobboldal{
+    float: none;
+    align-items: center;
+    justify-content: center;
     width: auto;
-    float: right;
     margin: 20px;
     font-size: 20px;
     color: white;
@@ -125,4 +127,5 @@ a{
     margin-top: 50px;
 }
 }
+
 
