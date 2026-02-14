@@ -102,7 +102,7 @@ h1{
 
 .jobboldal{
     width: 30rem;
-    float: left;
+    float: right;
     margin: 20px;
     font-size: 20px;
     color: white;
@@ -127,3 +127,4 @@ a{
     margin-top: 50px;
 }
 }
+
