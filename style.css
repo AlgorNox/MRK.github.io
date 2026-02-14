@@ -1,4 +1,3 @@
-
 /*PC*/
 
 @media (max-width: 3900px){
@@ -35,69 +34,6 @@ h1{
 
 .jobboldal{
     float: right;
-    padding: 20px;
-    width: 600px;
-    background-color: rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(6px);
-    color: rgb(255, 255, 255);
-    text-align: justify;
-}
-
-a{
-    text-decoration: none;
-    color: white;
-    padding:5px;
-    font-size: 23px;
-    font-size: 20px;
-}
-
-.gomb{
-    width: 50px;
-    margin: 10px;
-}
-
-.linkek{
-    background-color: rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(2px);
-    margin: 10px;
-    margin-top: 50px;
-}
-}
-
-/*tablet*/
-
-@media (max-width: 1024px){
-body{
-    background-image: url(hatterpc.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-h1{
-    text-align: center;
-    font-size: 70px;
-    letter-spacing: 2px;
-    font-weight: bold;
-    padding: 20px;
-    color: white;
-}
-
-.navbar{
-    height: auto;
-    padding-left: 20px;
-    background-color: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(10px);
-}
-
-.baloldal{
-    padding: 20px;
-    width: 500px;
-    color: white;
-    font-size: 25px;
-}
-
-.jobboldal{
     padding: 20px;
     width: 600px;
     background-color: rgba(0, 0, 0, 0.3);
@@ -167,14 +103,16 @@ h1{
 .jobboldal{
     width: 30rem;
     float: left;
+    margin: 20px;
+    font-size: 20px;
+    color: white;
 }
 
 a{
     text-decoration: none;
     color: white;
     padding:5px;
-    font-size: 23px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .gomb{
