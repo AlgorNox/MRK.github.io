@@ -84,7 +84,7 @@ h1{
 
 .navbar{
     height: auto;
-    width: 35rem;
+    width: auto;
     padding-left: 20px;
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(10px);
@@ -93,7 +93,7 @@ h1{
 .baloldal{
     text-align: center;
     padding: 20px;
-    width: 500px;
+    width: auto;
     color: white;
     font-size: 25px;
 }
