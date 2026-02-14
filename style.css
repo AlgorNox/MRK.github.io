@@ -70,7 +70,7 @@ a{
 
 /*sima PC*/
 
-@media (max-width: 3000px){
+@media (max-width: 2300px){
 body{
     background-image: url(hatterpc.png);
     background-repeat: no-repeat;
@@ -205,6 +205,7 @@ a{
     margin-top: 50px;
 }
 }
+
 
 
 
